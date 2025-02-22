@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /workspaces/ACS/acs_ws
+
+colcon build --merge-install --symlink-install
